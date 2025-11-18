@@ -71,4 +71,19 @@ opened5.addEventListener('click', () => {
     closed5.classList.remove('closed')
     opened5.classList.remove('opened')
     opened5.classList.add('closed')
+
 })
+
+const swiper = new Swiper('.slider', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+  spaceBetween: 32,
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.slide__next',
+    prevEl: '.slide__prev',
+  },
+
+});
