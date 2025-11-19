@@ -774,6 +774,7 @@ body {
 .founder_face {
     display: flex;
     flex-direction: column;
+    overflow: hidden;
 }
 
 .founder_face>img {
@@ -2245,5 +2246,6 @@ body {
     .slide__prev {
         top: 35%;
     }
+
 
 }
